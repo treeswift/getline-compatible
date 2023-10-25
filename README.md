@@ -1,3 +1,14 @@
+# Notes on the `treeswift` fork
+
+This fork of the [original project](https://github.com/jamesderlin/getline-compatible) adds
+Meson build files and version tags for easy distro integration; only that and nothing more.
+
+Everything contributed on top of the original project has been released into the public domain.
+The original code is covered by the ZLib license, as indicated in the [LICENSE] file.
+The original README comes below.
+
+---
+
 # getline-compatible
 
 Portable implementations of POSIX `getdelim` and `getline` functions for
