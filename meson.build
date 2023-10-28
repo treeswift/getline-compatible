@@ -2,7 +2,7 @@ project('getline-compatible', 'c',
   version : '1.0.0',
   default_options : ['warning_level=3'])
 
-libgetline = shared_library('libgetline',
+getline = shared_library('getline',
     files(
       'ggetws.c',
       'ggets.c',
@@ -14,7 +14,7 @@ libgetline = shared_library('libgetline',
 
 executable('test-getline',
     files('tests/test.c'),
-    link_with: libgetline,
+    link_with: getline,
     install: true
   )
 
